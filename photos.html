@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery | FitFreaks</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="lightbox.css"> <!-- Link to Lightbox CSS -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Photo Gallery</h1>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>Workout Techniques</h2>
+        <div class="gallery-grid">
+            <figure>
+                <a href="Photo2.jpeg" data-lightbox="gallery" data-title="Plank">
+                    <img src="Photo2.jpeg" alt="Plank">
+                </a>
+                <figcaption>Plank</figcaption>
+            </figure>
+            <figure>
+                <a href="Photo4.jpg" data-lightbox="gallery" data-title="Jumping Jacks">
+                    <img src="Photo4.jpg" alt="Jumping Jacks">
+                </a>
+                <figcaption>Jumping Jacks</figcaption>
+            </figure>
+            <figure>
+                <a href="Photo5.jpg" data-lightbox="gallery" data-title="Burpee">
+                    <img src="Photo5.jpg" alt="Burpee">
+                </a>
+                <figcaption>Burpee</figcaption>
+            </figure>
+            <figure>
+                <a href="Photo3.jpg" data-lightbox="gallery" data-title="Single-leg squat">
+                    <img src="Photo3.jpg" alt="Single-leg squat">
+                </a>
+                <figcaption>Single-leg squat</figcaption>
+            </figure>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <!-- Lightbox Script -->
+    <script src="lightbox.js"></script> <!-- Link to Lightbox JS -->
+</body>
+</html>
